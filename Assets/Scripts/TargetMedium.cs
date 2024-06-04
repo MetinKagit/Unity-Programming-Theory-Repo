@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetMedium : Target
+/* This is a child class. */
+public class TargetMedium : Target // INHERITANCE
 {
     void Start()
     {
-        enemy_speed = 5f; // Set the speed for medium enemy
-        DestroyAfterSeconds(5f); // Destroy the enemy after 5 seconds
+        
+        enemy_speed = 3f; //  Set the target speed
+        Jump(5f);
+        DestroyAfterSeconds(4f); // Destroy the target after a certain amount of time
     }
 
     void Update()
@@ -15,6 +18,8 @@ public class TargetMedium : Target
         MoveForward(); // Call the MoveForward method in Update
     }
 
+    
+    // Override the MoveForward method
     public override void MoveForward()
     {
         base.MoveForward();

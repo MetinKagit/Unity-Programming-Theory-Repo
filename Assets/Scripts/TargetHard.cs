@@ -2,17 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetHard : MonoBehaviour
+/* This is a child class. */
+public class TargetHard : Target // INHERITANCE
 {
-    // Start is called before the first frame update
+    public float rotationSpeed = 100f; // Rotation speed
+    private Rigidbody rb;
     void Start()
-    {
-        
+    {   
+        rb = GetComponent<Rigidbody>();
+        Jump(5f);
+        enemy_speed = 5f; // Set the target speed
+        DestroyAfterSeconds(5.5f); // Destroy the target after a certain amount of time
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        MoveForward(); 
     }
+
+    // Override the MoveForward method
+    public override void MoveForward() // POLYMORPHISM
+    {
+        rb.AddTorque(Vector3.left * rotationSpeed);
+    }
+    
 }

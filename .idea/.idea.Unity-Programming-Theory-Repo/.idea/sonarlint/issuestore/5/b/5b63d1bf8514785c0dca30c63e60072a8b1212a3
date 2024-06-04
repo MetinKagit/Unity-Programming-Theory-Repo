@@ -1,5 +1,8 @@
 
-Ocsharpsquid:S3903",Move 'TargetSpawner' into a named namespace.(¶¬ g8´ñı›ş1
-csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ßæÎß8üÇ»™ş1J$d195d812-87bb-4581-9c5d-051b474ad8e7
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(“Šääúÿÿÿÿ8ıÇ»™ş1J$9d3bcd82-4c25-4007-a826-b211fc81a0d5
-csharpsquid:S2190"2Add a way to break out of this method's recursion.(£šößşÿÿÿÿ8şÇ»™ş1J$9de37459-33f7-4e48-a53c-80d3ab1a3ede
+ucsharpsquid:S3903",Move 'TargetSpawner' into a named namespace.(¶¬ g8´ñı›ş1J$7583d80d-4159-4846-9644-82ef2377c48d
+csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ßæÎß8üÇ»™ş1J$43a5c3c1-63ea-4810-b48d-7b11c805f795
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(“Šääúÿÿÿÿ8ıÇ»™ş1J$632858f9-a36a-47c2-a010-f7c84731c081
+“csharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(§íß–şÿÿÿÿ8©‹ş1J$9c001963-8378-4c30-bf31-c057a47e45f6
+“csharpsquid:S1104
+"DMake this field 'private' and encapsulate it in a 'public' property.(Í€Âµøÿÿÿÿ8©‹ş1J$adaf29da-7b1b-4554-8d8f-a6448cf59f7e
+csharpsquid:S2190"2Add a way to break out of this method's recursion.(£šößşÿÿÿÿ8şÇ»™ş1J$540fa098-2726-4c99-a06e-d05290519e19

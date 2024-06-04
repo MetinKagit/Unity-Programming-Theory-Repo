@@ -15,3 +15,5 @@ N
 Assets/Scripts/TargetMedium.cs,d/1/d15522b8b1940042cc537cc9220fbc084a4e61ec
 O
 Assets/Scripts/TargetSpawner.cs,5/b/5b63d1bf8514785c0dca30c63e60072a8b1212a3
+L
+Assets/Scripts/TargetHard.cs,5/6/56afb48f39ed4618cf7e39205035458bb8729475
